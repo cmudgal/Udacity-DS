@@ -1,5 +1,7 @@
 
 Blog: Link to Medium blog https://medium.com/@cmudgal05/tale-of-two-cities-analyze-airbnb-data-for-seattle-and-boston-based-on-crisp-dm-fdd9d0dc8855
+
+
 Prerequisites:
 The following libraries are used for the project-
     -numpy
