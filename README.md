@@ -1,4 +1,5 @@
 
+Blog: Link to Medium blog https://medium.com/@cmudgal05/tale-of-two-cities-analyze-airbnb-data-for-seattle-and-boston-based-on-crisp-dm-fdd9d0dc8855
 Prerequisites:
 The following libraries are used for the project-
     -numpy
@@ -21,4 +22,4 @@ Data Prepration:
 Data Modelling:
 For predicting the price of listings, prepared data is split into train and test data. The training data is used to fit the linear model. The test data is used to test the linear model.  r-squared score is done to evaluate the model. The price prediction for Seattle has an r-squared score of .52 on test data, which is higher as compared to Boston which has an r-squared score of .19. 
 
-Conclusion:It was found that the busiest time to visit Seattle is in January and for Boston is in September when the bookings were at all time high regardless of the the cancellation policy.
+Conclusion: It was found that the busiest time to visit Seattle is in January and for Boston is in September when the bookings were at all time high regardless of the the cancellation policy.
