@@ -43,39 +43,37 @@ The project has three sections which are:
 
 2. **ML Pipeline:** `train_classifier.py` file contain the script to create ML pipline which:
 
-- Loads data from the SQLite database
+- Read data from the SQLite database
 - Tokenize the data
-- Splits the dataset into training and test sets
+- Split the dataset into training and test sets
 - Build a model using machine learning pipeline
 - Train model using GridSearchCV
 - Writes the final model as a pickle file
 
-3. **Flask Web App:** the web app enables the user to enter a disaster message the output is to display categories of the message.
-
-The web app also contains some visualizations that describe the data. 
+3. **Flask Web App:** the web app enables the user to enter a disaster message which output to display categories of the message. The web app displays data visualizations to describe the disaster category. 
  
  
  
-## Files Descriptions <a name="files"></a>
+## Files Details <a name="files"></a>
 
 The files structure is arranged as below:
 
-	- README.md: read me file
+	- README.md: read me file for the information
 	- ETL Pipeline Preparation.ipynb: contains ETL pipeline preparation code
 	- ML Pipeline Preparation.ipynb: contains ML pipeline preparation code
 	- DisasterResponse
 		- \app
 			- run.py: flask file to run the app
 		- \templates
-			- master.html: main page of the web application 
-			- go.html: result web page
+			- master.html: main web application page
+			- go.html: result web applicaiton page
 		- \data
 			- disaster_categories.csv: categories dataset
 			- disaster_messages.csv: messages dataset
-			- DisasterResponse.db: disaster response database
-			- process_data.py: ETL process
+			- DisasterResponse.db: disaster response database created to store the data
+			- process_data.py: ETL pipeline process
 		- \models
-			- train_classifier.py: classification code
+			- train_classifier.py: ML pipleline classification code
                         - classifier.pk: pickle file
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
