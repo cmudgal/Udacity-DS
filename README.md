@@ -11,7 +11,7 @@ The following libraries are used for the project-
     -sklearn
     
 Purpose:   The purpose of this is to analyse the Seattle/Boston datasets to answer questions that can help in business decision-making. In this CRISP-DM is a structured approach that follows for data analysis. 
-# Business Understanding (a brief description of the problem and questions of interest)
+#### Business Understanding 
 # Data Understanding (Access and Explore)
 # Data Preparation (Cleaning)
 # Modelling 
